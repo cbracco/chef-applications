@@ -98,7 +98,8 @@ node.default['sublime_text']['preferences'] = {}.tap do |prefs|
         ".bundle",
         ".sass-cache",
         "log",
-        "cache"
+        "cache",
+        "node_modules"
     ]
     prefs["font_face"] = "Monaco"
     prefs["font_options"] = [
